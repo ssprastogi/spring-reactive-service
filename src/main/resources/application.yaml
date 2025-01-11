@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: reactive-service
+server:
+  port: 9090
+ws:
+  employee:
+    baseUrl: "http://localhost:8080/emp"
+    connectTimeOut: 20000
+    readTimeOut: 20000
+  department:
+    baseUrl : "http://localhost:8081/dept"
+    connectTimeOut: 20000
+    readTimeOut: 20000
